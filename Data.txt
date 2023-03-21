@@ -6,4 +6,7 @@ Krabill.jpeg, Nick, Krabill, 9463, 52600, Math Teacher, 2
 Lambert.jpeg, Natalie, Lambert, 5603, 65230, Spanish Teacher, 9
 Oshea.jpeg, Kevin, Oshea, 3420, 267000, Superintendent, 15
 Roberts.png, Betsy, Roberts, 2304, 62000, Secretary, 16
-Ruckstuhl.jpeg, Brian, Ruckstuhl,6707, 54320,Deputy, 6 
+Ruckstuhl.jpeg, Brian, Ruckstuhl,6707, 54320,Deputy, 6
+Default.png,Joe,Gerwin,0346,75000,Computer Science,16
+Default.png,Ryan,Hafner,2934,78000,Geometry,19
+Default.png,Lori,Smith,2310,34000,Custodial,3
