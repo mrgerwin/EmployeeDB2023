@@ -1,0 +1,9 @@
+Brewster.jpeg, Mike, Brewster, 3562,80000,Science Teacher, 23
+Danko.jpeg, Julie, Danko, 1324, 82475, Social Studies Teacher, 33 
+Dzierwa.jpeg, Matt, Dzierwa,2049, 74300, Math Teacher, 26
+Ferdig.jpeg, Tom, Ferdig, 3420, 126000, Assistant Principal, 18
+Krabill.jpeg, Nick, Krabill, 9463, 52600, Math Teacher, 2
+Lambert.jpeg, Natalie, Lambert, 5603, 65230, Spanish Teacher, 9
+Oshea.jpeg, Kevin, Oshea, 3420, 267000, Superintendent, 15
+Roberts.png, Betsy, Roberts, 2304, 62000, Secretary, 16
+Ruckstuhl.jpeg, Brian, Ruckstuhl,6707, 54320,Deputy, 6 
