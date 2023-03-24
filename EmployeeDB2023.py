@@ -17,6 +17,14 @@ def pressNext():
     yearsText.value = yearsList[index]
 
 def pressSave():
+    picList.append("Default.png")
+    fnameList.append(firstNameText.value)
+    lnameList.append(lastNameText.value)
+    enList.append(employeeNumText.value)
+    salList.append(salaryText.value)
+    jobList.append(jobText.value)
+    yearsList.append(yearsText.value)
+    
     f = open("data.txt", "w")
     for i in range(len(picList)):
         f.write(picList[i]+","+ fnameList[i]+ ","+ lnameList[i] + ","+enList[i] + "," + str(salList[i])+","+ jobList[i] + "," + str(yearsList[i])+"\n" )
@@ -33,6 +41,40 @@ def pressNew():
     salaryText.value = ""
     jobText.value = ""
     yearsText.value = ""
+
+def pressLoad():
+    global picList, fnameList, lnameList, enList, salList, jobList, yearsList
+    
+    f = open("Data.txt", "r")
+    
+    employeeList = []
+    picList = []
+    fnameList = []
+    lnameList = []
+    enList = []
+    salList = []
+    jobList = []
+    yearsList = []
+    
+    
+    data = f.readlines()
+    print(data)
+    
+    f.close()
+    
+    for row in data:
+        employeeList.append(row.split(","))
+    
+    for employee in employeeList:
+        picList.append(employee[0])
+        fnameList.append(employee[1])
+        lnameList.append(employee[2])
+        enList.append(employee[3])
+        salList.append(employee[4])
+        jobList.append(employee[5])
+        yearsList.append(employee[6])
+        
+        
 
 app = App(title="Employee Database", width = 450, height = 600, layout="grid")
 
@@ -60,6 +102,7 @@ buttonBox = TitleBox(app, "Buttons", layout="grid", grid=[0,4,2,1])
 nextButton = PushButton(buttonBox, text="Next", grid=[0,0], command = pressNext)
 saveButton = PushButton(buttonBox, text="Save", grid=[1,0], command = pressSave)
 newButton = PushButton(buttonBox, text="New", grid=[2,0], command = pressNew)
+loadButton = PushButton(buttonBox, text="Load", grid=[3,0], command = pressLoad)
 
 index = 0
 

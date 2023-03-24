@@ -7,3 +7,4 @@ Lambert.jpeg,Natalie,Lambert,5603,65230,Spanish Teacher,9
 Oshea.jpeg,Kevin,Oshea,3420,267000,Superintendent,15
 Roberts.png,Betsy,Roberts,2304,62000,Secretary,16
 Ruckstuhl.jpeg,Brian,Ruckstuhl,6707,54320,Deputy,6
+Default.png,RJ,Agosti,0001,1,Programmer,1
